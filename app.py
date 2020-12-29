@@ -6,6 +6,7 @@ from itertools import cycle
 from mcrcon import MCRcon
 from secrets import IP, PASSWORD, TOKEN
 
+
 client = commands.Bot(command_prefix = '.')
 status = cycle(['.help for help', 'Best Gen'])
 client.remove_command('help')
